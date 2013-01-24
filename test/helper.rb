@@ -15,4 +15,13 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'heatmap'
 
 class Test::Unit::TestCase
+  
+  def teardown
+    File.unlink(example_png_file) if File.exists?(example_png_file)
+  end
+  
+  def example_png_file
+    File.dirname(__FILE__) + "/example.png"
+  end
+  
 end
