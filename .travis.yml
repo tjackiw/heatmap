@@ -3,5 +3,5 @@ rvm:
   - 1.9.2
   - 1.9.3
   - rbx-19mode
-services:
-  - imagick
+before_script:
+  - pecl install imagick
