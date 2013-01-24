@@ -20,7 +20,7 @@ map.output('simple.png')
 
 Output image:
 
-![Simple](simple.png)
+![Simple](https://raw.github.com/tjackiw/heatmap/master/examples/simple.png)
 
 ### External data example
 
@@ -43,4 +43,4 @@ map.output('large.png')
 
 Output image:
 
-![Simple](large.png)
+![Simple](https://raw.github.com/tjackiw/heatmap/master/examples/large.png)
