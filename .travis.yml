@@ -4,4 +4,4 @@ rvm:
   - 1.9.3
   - rbx-19mode
 before_script:
-  - pecl install imagick
+  - apt-get install imagick
