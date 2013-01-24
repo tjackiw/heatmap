@@ -3,5 +3,6 @@ rvm:
   - 1.9.2
   - 1.9.3
   - rbx-19mode
-before_script:
-  - sudo apt-get install imagick
+before_install: 
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq libmagickwand-dev libmagickcore-dev imagemagick
