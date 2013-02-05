@@ -4,8 +4,8 @@ module Heatmap
     attr_accessor :area
 
     def initialize
-      l = `which convert` || `where convert`
-      raise(RuntimeError, "You need to have ImageMagick installed!") if l.nil? || l.strip.empty?
+      location = `which convert` || `where convert`
+      raise(RuntimeError, "You need to have ImageMagick installed!") if location.nil? || location.strip.empty?
       @area = []
     end
 
