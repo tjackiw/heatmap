@@ -1,3 +1,5 @@
+# NOTE: This project is no longer maintened.
+
 # heatmap [![Build Status](https://secure.travis-ci.org/tjackiw/heatmap.png)](https://travis-ci.org/tjackiw/heatmap)
 
 Simple Heatmap generator for Ruby. 
