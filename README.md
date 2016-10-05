@@ -4,6 +4,18 @@
 
 Simple Heatmap generator for Ruby. 
 
+
+## Examples
+
+![Small data example](https://raw.github.com/tjackiw/heatmap/master/examples/simple.png) 
+– [Small data example](heatmap/blob/master/examples/simple.rb)
+
+![Large data example](https://raw.github.com/tjackiw/heatmap/master/examples/large.png) 
+– [Large data example](heatmap/blob/master/examples/large.rb)
+
+More about those examples in the [example directory](heatmap/tree/master/examples).
+
+
 ## Prerequisites
 
 This gem requires *ImageMagick* to run. You can easily install it with *homebrew*:
@@ -53,11 +65,6 @@ map << Heatmap::Area.new(x, y, alpha)
 ```ruby
 map.output(filename)
 ```
-
-## Example
-
-Examples are included in the *examples* directory.
-
 
 ## Contributing to heatmap
 
